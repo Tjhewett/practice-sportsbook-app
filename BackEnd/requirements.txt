@@ -1,0 +1,9 @@
+Flask
+requests
+beautifulsoup4
+SQLAlchemy
+flask-cors
+flask-bcrypt
+flask-jwt-extended
+pymysql
+pytest
