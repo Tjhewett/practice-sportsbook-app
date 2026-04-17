@@ -1,62 +1,171 @@
-# Gridiron Wager - A practice sports betting enviornment
+# 🏈 Gridiron Wager – Practice Sports Betting Platform
 
-[GitHub Repository Link](https://github.com/Tjhewett/Senior-Capstone/tree/master).\
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
-The Backend is in Python Flask.\
-The data is stored using MySQL.
+A full-stack web application that simulates a sports betting environment, allowing users to place bets on NFL events using virtual currency, track performance, and analyze real-time statistics.
 
-## How to Run the React code
+---
 
-In the project directory (gridiron-wager), you can run:
+## 🚀 Features
+
+* 👤 **User Authentication**
+
+  * Account creation and secure login
+  * JWT-based authentication for protected routes
+
+* 💰 **Betting System**
+
+  * Place bets on:
+
+    * NFL Draft outcomes
+    * Week 1 NFL games
+    * Super Bowl winner
+  * Track all bets through a user account dashboard
+
+* 📊 **Statistics Dashboard**
+
+  * View NFL player and team statistics
+  * Data fetched and served through backend APIs
+
+* 🎮 **Mini-Game**
+
+  * Earn in-game currency through gameplay
+  * Adds engagement and strategy to betting system
+
+* 📈 **Bet Evaluation System**
+
+  * Bets are evaluated and payouts are applied
+  * User currency updates dynamically based on results
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* **React**
+* **React Router**
+* **Bootstrap**
+* JavaScript (ES6+)
+
+### Backend
+
+* **Python (Flask)**
+* **SQLAlchemy**
+* **JWT Authentication**
+* **BeautifulSoup** (data scraping)
+
+### Database
+
+* **MySQL**
+
+---
+
+## 🧠 Key Concepts Demonstrated
+
+* Full-stack application architecture (React + Flask)
+* REST API design and integration
+* Authentication using JWT
+* State management across multiple views
+* Database interaction and persistence
+* Data scraping and processing
+* Component-based UI design
+
+---
+
+## ⚙️ How to Run the Project
+
+### 1. Clone the repository
 
 ```bash
-  npm start
+git clone https://github.com/Tjhewett/practice-sportsbook-app.git
+cd practice-sportsbook-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The code contains components that swap in and out of a single html page when choosing different Routes.
+### 2. Start the Frontend
 
-imports: React, useEffect, useState, useRef, useMemo ReactDOM, Link, Route, Routes, BrowserRouter, Navigate, Bootstrap.
+```bash
+npm install
+npm start
+```
 
-to install imports, run npm install ...
+Open:
+👉 http://localhost:3000
 
-## How to Run the Flask code 
+---
 
-Make sure that you have Python 3.12.0 & sql3 installed. Code can be found in the BackEnd Folder.
+### 3. Start the Backend
 
-Open the directory in VS code or another IDE and run main.py.
+Navigate to the backend folder:
 
-This must be run alongside the React App so the endpoints on the backend can be met.
+```bash
+cd BackEnd
+```
 
-imports: Flask, jsonify, request, requests, BeautifulSoup, SQLAlchem, CORS, Bcrypt, JWTManager, os, Blueprint, create_access_token, pytest, jwt_required, get_jwt_identity, pymysql.cursors.
+Install dependencies:
 
-to install imports, run pip install ...
+```bash
+pip install -r requirements.txt
+```
 
-## Final Implementation
+Run the server:
 
-Users can view stats on the stat page and create an account on the sign-up page. Users can place bets on the NFL draft, week 1 NFL games, and the 2025 Super Bowl champion. Users can play a mini-game to increase thier in-game currency.
+```bash
+python main.py
+```
 
-Stats are fetched from the database in MySQL and accounts are posted to the database when an account hasn't been created. Bets are saved and can be viewed under the account page. Currency gets updated when bets have been evaluated as a win. 
+---
 
-Impemented Features:
-- User Profiles: 100%
-- Different Betting styles: 100%
-- Bet Tracking: 100%
-- Mini-game: 100%
-- Stats tab: 100%
-- In-Game currency: 100% 
+## ⚠️ Environment Setup
 
-Current screens:
-- Sign-in/Sign-up screen
-- Betting screen
-- Statistics screen
-- Mini-game screen
-- Account screen 
-- Home screen
+This project may require environment variables for:
 
+* Database connection
+* Secret keys (JWT)
 
+Create a `.env` file (not included in repo):
 
+```env
+SECRET_KEY=your_secret_key
+DATABASE_URL=your_database_url
+```
 
+---
 
+## 📂 Project Structure
 
+```text
+practice-sportsbook-app/
+  src/              # React frontend
+  BackEnd/          # Flask backend
+  public/           # Static assets
+```
+
+---
+
+## 📸 Screens
+
+* Sign-in / Sign-up
+* Betting dashboard
+* Statistics page
+* Mini-game
+* User account dashboard
+* Home page
+
+---
+
+## 🚧 Future Improvements
+
+* Add real-time odds updates
+* Improve UI/UX design
+* Add more sports and betting types
+* Implement live game tracking
+* Enhance security and validation
+
+---
+
+## 👨‍💻 Author
+
+Developed by Trevor Hewett as part of a senior capstone project, focused on building a full-stack application integrating real-world data, authentication, and user interaction.
+
+---
