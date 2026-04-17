@@ -1,0 +1,30 @@
+.BigNav {
+  background-color: #4464AD;
+  padding: 10px;
+  color: white;
+}
+  
+.BigNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+  
+.BigNav li {
+  display: inline;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+  
+.BigNav a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.BigNav a:hover {
+  color: #282c34;
+}
+  
+  

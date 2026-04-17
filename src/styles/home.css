@@ -1,0 +1,40 @@
+.home {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.home h3{
+  color:white;
+}
+
+.home-logo {
+  margin-top: 25px;
+  height: 50vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .home-logo {
+    animation: home-logo-spin infinite 8s;
+  }
+}
+
+.home-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

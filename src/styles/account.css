@@ -1,0 +1,16 @@
+.account-container {
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+.label-column {
+    text-align: right; 
+    font-weight: bold; 
+}
+.value-column {
+    text-align: left; 
+}
+.table {
+    margin: auto; 
+    width: 25% !important; 
+}

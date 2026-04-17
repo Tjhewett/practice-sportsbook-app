@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif; 
+}
+table {
+    width: 60%; 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+th {
+    background-color: #007BFF; 
+    color: white; 
+    font-size: 16px; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+}
+
+nav button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+nav button:hover {
+    background-color: #0056b3; 
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.pagination button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.pagination button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not([disabled]) {
+    background-color: #0056b3;
+}
+
+.pagination span {
+    padding: 8px 16px;
+}
+
+
+@media (max-width: 768px) {
+    table {
+        width: 100%; 
+    }
+    nav button, .pagination button {
+        padding: 8px 12px; 
+    }
+}

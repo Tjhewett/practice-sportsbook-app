@@ -1,0 +1,40 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+div{
+    color: white;
+}
+  
+h2 {
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.table1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.currency{
+    text-align: center;
+}
+
+.btn-primary{
+    width: 100px;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    background: #333; 
+}
+
+tbody tr:hover {
+    background-color: #f8f9fa;
+}
+

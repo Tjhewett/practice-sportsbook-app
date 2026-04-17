@@ -1,0 +1,68 @@
+.week1-odds-container {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.week1-odds-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.odds-table {
+    width: 100%;
+}
+
+.odds-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background: #333; 
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+.odds-team {
+    font-weight: bold;
+    background: #333; 
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.odds-bet-option {
+    background: #333;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px; 
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+    width: 200px; 
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue; 
+}
+
+.currency {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}

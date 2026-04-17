@@ -1,0 +1,35 @@
+.mini-game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.mini-game-container h1 {
+    margin-bottom: 20px;
+}
+
+.mini-game-container canvas {
+    border: 3px solid #000; 
+    margin-bottom: 20px;
+}
+
+.mini-game-container p {
+    font-size: 1.2em;
+}
+
+.mini-game-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.mini-game-container button:hover {
+    background-color: #0056b3; 
+}
